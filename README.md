@@ -1,17 +1,21 @@
 <html>
+    <html lang="es">
     <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
         <link rel="stylesheet" href="Estilos.css">
 
     </head>
     <body>
         <header>
-            <img src="img/Vector.jpg" alt="logo alura" class="vector">
-
+           
+            <h1 class="titulo">Juego de encriptar y desencriptar texto</h1>
+            <img src="img/letra.jpg" alt="logo alura" class="letra">
         </header>
 
         <main>
             <section class="seccion1">
-                <textarea class="area" placeholder="Ingrese el texto aqui"></textarea>
+                <textarea class="area" placeholder="Ingrese el texto que deseas encriptar"></textarea>
 
                 <div class="contenedor-botones">
                 <input type="button" class="btn-encriptar" value="Encriptar">
@@ -25,22 +29,15 @@
                <div class="contenedor-h3">
                 <h3>Ningun mensaje fue encontrado</h3>
                </div>
-               <div class="contenedor-parrafo">
-                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
-               </div>
-
+        
                <div class="contenedor-resultado">
                  <h3>Mensaje encriptado:</h3>
                  <P class="texto-resultado"></P>
-
-               </div>
-               <div class="contenedor-copiar">
-                <input type="button" class="btn-copiar" value="Copiar">
-               </div>
             </section>
+
         </main>
         <footer>
-            <p>Tarea realizada por Osvaldo Estrada. Derechos de Alura</p>
+            <p>Tarea realizada por Osvaldo Estrada 2022. Derechos de Alura</p>
         </footer>
         <script src="encriptado.js"></script>
     </body>
